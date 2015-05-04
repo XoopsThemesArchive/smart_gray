@@ -1,0 +1,211 @@
+body{
+color:#666666;background-color:#cccccc;font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0px; padding: 0px; font-size: 11px; }
+
+#corp{
+top:0px;
+left:0px;
+width:1000px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#banniere{
+position:relative;
+height:201px;
+width:1000px;
+background-image: url(images/banniere.gif);
+
+}
+
+#login {
+position: absolute;
+top:50px;
+right:60px;
+height:120px;
+width:120px;
+}
+
+#logo{
+position:relative;
+top:60px;
+height:66px;
+width:461px;
+margin:auto;
+}
+
+#page{
+width:1000px;
+background-image: url(images/pagecentre.gif);
+}
+
+#conteneur{
+width:875px;
+margin-left:auto;
+margin-right:auto;
+}
+
+
+
+
+#blocgauche{
+width:191px;
+}
+.blocgauchehaut{
+width:191x;
+height:60px;
+background-image: url(images/menubar.gif);
+}
+.blocgauchecentre{
+width:191px;
+background-image: url(images/menucentre.gif);
+background-repeat:repeat-y;
+}
+.contenublocgauche{
+width:150px;margin-left:auto;margin-right:auto;
+}
+
+.blocgauchebas{
+width:191px;
+height:24px;
+background-image: url(images/menubas.gif);
+}
+#bloccentre{
+float:right;
+width:645px;
+
+}
+
+.bloccentrehaut{
+width:645px;
+height:60px;
+background-image: url(images/contenubar.gif);
+}
+.bloccentrecentre{
+width:645px;
+background-image: url(images/contenucentre.gif);
+background-repeat:repeat-y;
+}
+.contenubloccentre{
+text-align:justify;
+width:600px;
+margin-left:auto;
+margin-right:auto;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:20px;
+padding-right:15px;
+line-height:110%;
+}
+
+.bloccentrebas{
+width:645px;
+height:24px;
+background-image: url(images/contenubas.gif);
+}
+
+#footer{
+width:1000px;
+height:59px;
+background-image: url(images/pagebas.gif);
+text-align: center;
+font-size: 10px;
+}
+
+span.titremenu{
+color:#000000;
+font-weight:bold;
+position:relative;
+top:20px;
+left:90px;
+font-size:10px;
+}
+span.titrecentre{
+color:#000000;
+font-weight:bold;
+position:relative;
+top:21px;
+left:96px;
+font-size:10px;
+}
+
+.separation{
+clear:both;
+visibility: hidden;
+}
+
+
+
+
+
+
+a {color: #666666; text-decoration: none;}
+a:hover {color: #FF9900; text-decoration: none;}
+
+li {margin-left:15px;}
+
+table {width: 100%; margin-bottom: 0px; border: 5px;}
+td {margin: 0px;  vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px;}
+input.formButton {}
+
+.item {border:1px solid #a7a7a7;background-color:#f4f4f4;background-repeat:no-repeat;}
+.itemHead {background-color:#f1fad3;padding:5px;border-bottom:1px dashed #b7b7b7;}
+.itemInfo {padding:5px;}
+.itemTitle a {padding-left:10px;font-weight:bold;}
+.itemTitle {padding-left:10px;font-weight:bold;}
+.itemPoster {}
+.itemPostDate {}
+.itemStats {}
+.itemBody {padding:10px;}
+.itemText {font-size:12px; line-height:120%;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {}
+.itemAdminLink {}
+.itemPermaLink {}
+
+
+th {background-color: #f1f1f1; color: #555555; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 11px; padding-right: 5px; padding-left: 5px;	padding-top: 2px; padding-bottom: 2px;}
+#mainmenu {width:160px;}
+#mainmenu a {display: block; padding-left: 10px; color: #555555; font-size: 11px; background-color: none;}
+#mainmenu a:hover {color: #000000; text-decoration: none; background-color: #f1f1f1;font-weight:bold;}
+#mainmenu a.menuTop {padding-left: 10px;}
+#mainmenu a.menuMain {padding-left: 10px; margin-top: 1px;}
+#mainmenu a.menuSub {padding-left: 19px; margin-top: 1px; color: #666666;}
+#mainmenu a.menuSub:hover {padding-left: 19px; margin-top: 1px; color: #666666;}
+#usermenu {width:160px;}
+#usermenu a {display: block; padding-left: 10px; color: #555555; font-size: 11px; background-color: none;}
+#usermenu a:hover {color: #000000; text-decoration: none; background-color: #f1f1f1;font-weight:bold;}
+#usermenu a.menuTop {padding-left: 10px;}
+#usermenu a.highlight {background-color: #fcc;}
+
+.outer {background:#ffffff; border: 1px solid #b7b7b7;}
+.head {vertical-align: middle; background-color: #cccccc; padding: 5px; font-weight: bold; color: #555555;}
+.even {background-color: #efefef; padding: 5px;}
+.even a {color: #666666; text-decoration: none;}
+.even a:hover {color: #FF9900; text-decoration: none;}
+.odd {background-color: #f1f1f1; padding: 5px;}
+.odd a {color: #666666; text-decoration: none;}
+.odd a:hover {color: #FF9900; text-decoration: none;}
+.foot {background-color: #cccccc; padding: 5px; font-weight: bold; color: #009999;}
+tr.even td {background-color: #efefef; padding: 5px;}
+tr.odd td {background-color: #f1f1f1; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #ffffff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #ffffff; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px; font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserName a {color: #ffffff;}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}

@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="<{$xoops_langcode}>" lang="<{$xoops_langcode}>">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="content-language" content="<{$xoops_langcode}>" />
+<meta name="robots" content="<{$xoops_meta_robots}>" />
+<meta name="keywords" content="<{$xoops_meta_keywords}>" />
+<meta name="description" content="<{$xoops_meta_description}>" />
+<meta name="rating" content="<{$xoops_meta_rating}>" />
+<meta name="author" content="<{$xoops_meta_author}>" />
+<meta name="copyright" content="<{$xoops_meta_copyright}>" />
+<meta name="generator" content="XOOPS" />
+<title><{$xoops_pagetitle}> - <{$xoops_sitename}> </title>
+<link href="<{$xoops_url}>/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_url}>/xoops.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-245292-2";
+urchinTracker();
+</script>
+
+<!-- RMV: added module header -->
+<{$xoops_module_header}>
+<script type="text/javascript">
+<!--
+<{$xoops_js}>
+//-->
+</script></head>
+<body>
+<div id="corp">
+	<div id="banniere">
+		<div id="logo">
+		<{$xoops_banner}>
+		</div>
+		
+		<div id="login">
+		<{if $xoops_isuser}> 
+		<br/>
+		<br/>
+		<a href="<{$xoops_url}>/user.php?op=logout"><img src="<{$xoops_url}>/themes/smart_gray/images/icon_padlock.gif"/>    </a> <b><{$xoops_uname}></b>
+		<{else}>
+		<form style="margin-top: 0px;" action="<{$xoops_url}>/user.php" method="post">
+    Login :&nbsp;<br />
+    <input type="text" name="uname" size="12" value="" maxlength="25" /><br />
+
+    Mot de passe :&nbsp;<br />
+    <input type="password" name="pass" size="12" maxlength="32" /><br />
+    <input type="hidden" name="xoops_redirect" value="/" />
+    <input type="hidden" name="op" value="login" />
+    <input type="submit" value="Connexion" /><br />
+    
+</form>
+<{/if}>
+		</div>
+	</div>
+	<div id="page">
+		<div id="conteneur">
+			<div id="bloccentre">
+			
+			<{foreach item=block from=$xoops_ccblocks}>
+				<div class="bloccentrehaut">
+					<span class="titrecentre">
+					<{$block.title}>
+					</span>
+				</div>
+				<div class="bloccentrecentre">	
+				<div class="contenubloccentre">
+				<{$block.content}>
+				</div>
+				</div>
+				<div class="bloccentrebas">	
+				</div>	
+				<br/>
+			<{/foreach}>
+			<{$xoops_contents}>
+			</div>
+			
+			
+			<div id="blocgauche">
+			<{foreach item=block from=$xoops_lblocks}>
+				<div class="blocgauchehaut">
+					<span class="titremenu">
+					<{$block.title}>
+					</span>
+				</div>
+				<div class="blocgauchecentre">	
+				<div class="contenublocgauche">
+				<{$block.content}>
+				</div>
+				</div>
+				<div class="blocgauchebas">	
+				</div>	
+				<br/>
+			<{/foreach}>
+			</div>
+			
+
+			<hr class="separation" />
+			<br/>
+		</div>
+	</div>
+	<div id="footer">
+	<{$xoops_footer}>
+	</div>
+</div>
+<!-- Thanks for keeping this link if you use this theme -->
+<center><a href="http://www.s-martinez.com" title="Theme by s-martinez.com">s-martinez.com</a></center>
+</body>
+
+</html>
